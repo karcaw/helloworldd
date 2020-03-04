@@ -1,9 +1,9 @@
 
-all: hello.exe hello2.exe
+all: hello.exe hello3.exe
 
 
 hello.exe: hello.c
 	gcc -o hello hello.c
 
-hello2.exe: hello2.c
-	gcc -o hello2 hello2.c
+hello3.exe: hello3.c
+	gcc -o hello3 hello3.c
